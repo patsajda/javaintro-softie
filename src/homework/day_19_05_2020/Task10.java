@@ -2,9 +2,7 @@ package homework.day_19_05_2020;
 
 public class Task10 {
     public static void main(String[] args) {
-        System.out.println(sumDigits(1992));
-        System.out.println(sumDigits(1234));
-        System.out.println(sumDigits(130));
+        System.out.println(sumDigits(6222));
     }
 
     public static int sumDigits(int number) {
@@ -16,5 +14,4 @@ public class Task10 {
         }
         return sum;
     }
-
 }
