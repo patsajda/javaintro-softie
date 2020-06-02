@@ -1,5 +1,8 @@
 package rework.day_09_05_2020;
 
+//TODO: Read the age and decide if user can enter the alcohol-related website. Print “you are too young” or “you can enter” depending on provided age.
+// Test your app – what test cases would you prepare?
+
 import java.util.Scanner;
 
 public class IfLoopTask1 {
