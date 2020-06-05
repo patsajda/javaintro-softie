@@ -8,14 +8,12 @@ public class IfLoopTask6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your PESEL: ");
-        String enteredPESEL = scanner.nextLine();
+        String pesel = scanner.nextLine();
 
-        int lengthPESEL = enteredPESEL.length();
-
-        if (lengthPESEL != 11) {
+        if (pesel.length() != 11) {
             System.out.println("Wrong PESEL length!");
-
-            //TODO: Finish task...
-        }
+        } else if (Integer.parseInt(pesel.substring(pesel.length() - 2, pesel.length() - 1)) % 2 == 0) {
+            System.out.println("You are female");
+        } else System.out.println("You are male!");
     }
 }

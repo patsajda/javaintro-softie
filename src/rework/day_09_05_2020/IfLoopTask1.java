@@ -16,9 +16,9 @@ public class IfLoopTask1 {
 
     public static void checkAge(int age) {
         if (age >= 18) {
-            System.out.println("You can enter!");
+            System.out.println("you can enter");
         } else {
-            System.out.println("You are too young!");
+            System.out.println("you are too young");
         }
     }
 }

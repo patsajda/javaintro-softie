@@ -11,6 +11,6 @@ public class MethodTask1 {
     }
 
     public static int avgNumber(int a, int b, int c) {
-        return ((a + b + c) / 3);
+        return (a + b + c) / 3;
     }
 }
