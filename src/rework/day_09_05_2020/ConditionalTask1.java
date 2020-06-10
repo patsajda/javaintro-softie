@@ -1,5 +1,7 @@
 package rework.day_09_05_2020;
 
+//TODO: Using nested if statements refactor your program from task 5.
+
 public class ConditionalTask1 {
     public static void main(String[] args) {
         checkAge(79);

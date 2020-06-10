@@ -1,6 +1,8 @@
 package rework.day_09_05_2020;
 
-public class LogicalTask1 {
+//TODO: Given three integers – a, b and c, return true if two or more of them equal 3.
+
+public class OperatorsTask1 {
     public static void main(String[] args) {
         System.out.println(containsThree(23, 3, 3));
         System.out.println(containsThree(3, 33, 31));
