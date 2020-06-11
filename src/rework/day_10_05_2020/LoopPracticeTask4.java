@@ -1,10 +1,10 @@
-package rework.day_09_05_2020;
+package rework.day_10_05_2020;
 
 //TODO: Implement a program getting number and printing the sum of numbers from 0 to this number.
 
 import java.util.Scanner;
 
-public class ForLoopTask4 {
+public class LoopPracticeTask4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number: ");
