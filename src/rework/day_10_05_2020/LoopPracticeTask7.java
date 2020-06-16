@@ -1,6 +1,7 @@
 package rework.day_10_05_2020;
 
 //TODO: Write a program getting a word and printing it backwards.
+// Need rework!
 
 import java.util.Scanner;
 
